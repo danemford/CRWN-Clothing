@@ -95,5 +95,5 @@ const firebaseConfig = {
 
     export const signOutUser = async () => await signOut(auth);
 
-    export const onAuthStateChangedListerner = (callback) => onAuthStateChanged(auth, callback);
+    export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback);
     
