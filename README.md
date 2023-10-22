@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Ecommerce Store
+Welcome to my E-commerce project, a comprehensive platform designed to showcase the capabilities of a real-world online shopping experience. While this is primarily a portfolio project, it mirrors the functionality you'd expect from a professional E-commerce platform.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack
+Here is the tech stack I used in this project:
 
-## Available Scripts
+**React**: The primary JavaScript library used to build the user interface and manage state.
+**Firebase**: Firebase handles user authentication, allowing sign-ins with Google accounts and traditional email-password combinations. It also provides a database solution for storing user data, cart items, and product details.
+**Styled Components**: Leveraged for styling the components, ensuring a responsive and visually appealing design.
+**Netlify**: The platform chosen for deploying and hosting the E-commerce project, offering seamless integration with the development environment and continuous deployment capabilities.
 
-In the project directory, you can run:
+## Features
+Here are some of the features:
 
-### `npm start`
+**Shopping Cart**: Add items to your cart and witness live updates as you modify its contents.
+**Checkout System**: A robust checkout page where items can be increased, decreased, or removed. It provides a real-time reflection of changes both on the checkout page and cart component.
+**Authentication**: With Firebase, users can sign in using their Google accounts. Additionally, features for traditional sign-up and sign-in using email and password have been incorporated.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Challenges
+One of the main challenges was ensuring seamless integration between different services, especially Firebase for authentication and storage. Creating a user-friendly interface that dynamically updates based on cart changes was another hurdle which involved learning how to use React's Context API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Future Improvements
+Here are some of the features I would like to add in the future:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Stripe API Integration: In the pipeline is the integration with Stripe API to simulate the payment process, providing a hands-on experience of building with Stripe.
+Replace React Context API with Redux for state management: While the Context API is sufficient for this project, Redux is a more robust solution for managing state in larger applications.
