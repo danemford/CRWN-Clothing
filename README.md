@@ -5,15 +5,20 @@ Welcome to my E-commerce project, a comprehensive platform designed to showcase 
 Here is the tech stack I used in this project:
 
 **React**: The primary JavaScript library used to build the user interface and manage state.
+
 **Firebase**: Firebase handles user authentication, allowing sign-ins with Google accounts and traditional email-password combinations. It also provides a database solution for storing user data, cart items, and product details.
+
 **Styled Components**: Leveraged for styling the components, ensuring a responsive and visually appealing design.
+
 **Netlify**: The platform chosen for deploying and hosting the E-commerce project, offering seamless integration with the development environment and continuous deployment capabilities.
 
 ## Features
 Here are some of the features:
 
 **Shopping Cart**: Add items to your cart and witness live updates as you modify its contents.
+
 **Checkout System**: A robust checkout page where items can be increased, decreased, or removed. It provides a real-time reflection of changes both on the checkout page and cart component.
+
 **Authentication**: With Firebase, users can sign in using their Google accounts. Additionally, features for traditional sign-up and sign-in using email and password have been incorporated.
 
 ## Challenges
